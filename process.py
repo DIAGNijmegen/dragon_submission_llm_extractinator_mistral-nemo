@@ -154,7 +154,7 @@ class DragonSubmission(DragonBaseline):
 
         extractinate(
             task_id=self.task_id,
-            model_name="gemma2",
+            model_name="mistral-nemo",
             num_examples=0,
             max_context_len=8192,
             num_predict=512,
